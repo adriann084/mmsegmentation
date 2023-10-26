@@ -145,6 +145,14 @@ def mapillary_v1_classes():
     ]
 
 
+def solar_pv_classes():
+    return ['Background', 'Solar PV']
+
+
+def solar_pv_palette():
+    return [[0, 0, 0], [255, 255, 255]]
+
+
 def mapillary_v1_palette():
     """mapillary_v1_ palette for external use."""
     return [[165, 42, 42], [0, 192, 0], [196, 196, 196], [190, 153, 153],
